@@ -1,5 +1,5 @@
 FROM node:18-alpine
-RUN apk add --no-cache vips-dev vips make python3
+RUN apk add --no-cache vips-dev vips make python3 gcc g++ libc6-compat
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/app
