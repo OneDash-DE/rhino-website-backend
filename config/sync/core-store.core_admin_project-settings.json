@@ -2,24 +2,24 @@
   "key": "core_admin_project-settings",
   "value": {
     "menuLogo": {
-      "name": "android-chrome-192x192.png",
-      "hash": "android_chrome_192x192_f23164e1a2",
-      "url": "/uploads/android_chrome_192x192_f23164e1a2.png",
-      "width": 192,
-      "height": 192,
+      "name": "android-chrome-384x384.png",
+      "hash": "android_chrome_384x384_8682bce727",
+      "url": "https://rhino-strapi-files.s3.eu-central-1.amazonaws.com/android_chrome_384x384_8682bce727.png",
+      "width": 384,
+      "height": 384,
       "ext": ".png",
-      "size": 13.5,
-      "provider": "local"
+      "size": 42.44,
+      "provider": "aws-s3"
     },
     "authLogo": {
-      "name": "android-chrome-192x192.png",
-      "hash": "android_chrome_192x192_73f89528b4",
-      "url": "/uploads/android_chrome_192x192_73f89528b4.png",
-      "width": 192,
-      "height": 192,
+      "name": "android-chrome-384x384.png",
+      "hash": "android_chrome_384x384_3fe3fac46a",
+      "url": "https://rhino-strapi-files.s3.eu-central-1.amazonaws.com/android_chrome_384x384_3fe3fac46a.png",
+      "width": 384,
+      "height": 384,
       "ext": ".png",
-      "size": 13.5,
-      "provider": "local"
+      "size": 42.44,
+      "provider": "aws-s3"
     }
   },
   "type": "object",
