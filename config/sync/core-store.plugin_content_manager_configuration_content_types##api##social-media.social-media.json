@@ -22,8 +22,8 @@
       },
       "url": {
         "edit": {
-          "label": "url",
-          "description": "",
+          "label": "URL",
+          "description": "Link zu dem Weitergeleitet werden soll",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -36,8 +36,8 @@
       },
       "logo": {
         "edit": {
-          "label": "logo",
-          "description": "",
+          "label": "Logo",
+          "description": "SVG Grafik des Social Media Unternehmens",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -78,12 +78,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "url",
-        "logo",
-        "createdAt"
-      ],
       "edit": [
         [
           {
@@ -95,6 +89,11 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "url",
+        "logo"
       ]
     }
   },

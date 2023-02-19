@@ -22,7 +22,7 @@
       },
       "photos": {
         "edit": {
-          "label": "photos",
+          "label": "Photos",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,19 +64,19 @@
       }
     },
     "layouts": {
+      "edit": [
+        [
+          {
+            "name": "photos",
+            "size": 12
+          }
+        ]
+      ],
       "list": [
         "id",
         "photos",
         "createdAt",
         "updatedAt"
-      ],
-      "edit": [
-        [
-          {
-            "name": "photos",
-            "size": 6
-          }
-        ]
       ]
     }
   },

@@ -1,6 +1,6 @@
 export default ({ env }) => ({
   "import-export-entries": {
-    enabled: true,
+    enabled: process.env.NODE_ENV === "development",
   },
   upload: {
     config: {

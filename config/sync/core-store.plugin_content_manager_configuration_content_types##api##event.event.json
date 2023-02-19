@@ -22,7 +22,7 @@
       },
       "date": {
         "edit": {
-          "label": "date",
+          "label": "Datum",
           "description": "Datum des Auftritts",
           "placeholder": "",
           "visible": true,
@@ -37,8 +37,8 @@
       },
       "description": {
         "edit": {
-          "label": "description",
-          "description": "",
+          "label": "Beschreibung",
+          "description": "Kurze Beschreibung zum Event mit Ort.",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -51,7 +51,7 @@
       },
       "name": {
         "edit": {
-          "label": "name",
+          "label": "Name",
           "description": "Kurzer name des Events.",
           "placeholder": "z.B. Auftritt Bernkasteler Weinfest",
           "visible": true,

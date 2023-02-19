@@ -22,7 +22,7 @@
       },
       "aboutText": {
         "edit": {
-          "label": "About ",
+          "label": "About - Text",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "termsAndConditions": {
         "edit": {
-          "label": "Terms and Conditions",
+          "label": "Geschäftsbedingungen",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "privacyPolicy": {
         "edit": {
-          "label": "Privacy Policy",
+          "label": "Datenschutzerklärung",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "imprint": {
         "edit": {
-          "label": "imprint",
+          "label": "Impressum",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -78,8 +78,8 @@
       },
       "heroImage": {
         "edit": {
-          "label": "heroImage",
-          "description": "",
+          "label": "Hero Image",
+          "description": "Hauptbild der Seite",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -92,7 +92,7 @@
       },
       "metaDescription": {
         "edit": {
-          "label": "metaDescription",
+          "label": "Meta - Beschreibung",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -106,7 +106,7 @@
       },
       "metaKeywords": {
         "edit": {
-          "label": "metaKeywords",
+          "label": "Meta - Keywoards",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -120,7 +120,7 @@
       },
       "metaTitle": {
         "edit": {
-          "label": "metaTitle",
+          "label": "Meta - Title",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -134,7 +134,7 @@
       },
       "metaPageUrl": {
         "edit": {
-          "label": "metaPageUrl",
+          "label": "Meta - Page-URL",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -148,7 +148,7 @@
       },
       "liveText": {
         "edit": {
-          "label": "liveText",
+          "label": "Live - Text",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -190,16 +190,22 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "heroImage"
-      ],
       "edit": [
         [
           {
+            "name": "heroImage",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "aboutText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "liveText",
             "size": 12
           }
         ],
@@ -223,25 +229,9 @@
         ],
         [
           {
-            "name": "heroImage",
-            "size": 6
-          },
-          {
-            "name": "metaDescription",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "metaKeywords",
-            "size": 6
-          },
-          {
             "name": "metaTitle",
             "size": 6
-          }
-        ],
-        [
+          },
           {
             "name": "metaPageUrl",
             "size": 6
@@ -249,10 +239,20 @@
         ],
         [
           {
-            "name": "liveText",
-            "size": 12
+            "name": "metaDescription",
+            "size": 6
+          },
+          {
+            "name": "metaKeywords",
+            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "heroImage"
       ]
     }
   },

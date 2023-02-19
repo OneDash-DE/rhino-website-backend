@@ -22,8 +22,8 @@
       },
       "embeddedLink": {
         "edit": {
-          "label": "embeddedLink",
-          "description": "",
+          "label": "Embedded Link",
+          "description": "Einbettbarer Link von Youtube",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -64,19 +64,17 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "embeddedLink",
-        "createdAt",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
             "name": "embeddedLink",
-            "size": 6
+            "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "embeddedLink"
       ]
     }
   },

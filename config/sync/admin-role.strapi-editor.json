@@ -4,6 +4,258 @@
   "description": "Editors can manage and publish contents including those of other users.",
   "permissions": [
     {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::event.event",
+      "properties": {
+        "fields": [
+          "date",
+          "description",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::event.event",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::event.event",
+      "properties": {
+        "fields": [
+          "date",
+          "description",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::event.event",
+      "properties": {
+        "fields": [
+          "date",
+          "description",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "aboutText",
+          "heroImage",
+          "imprint",
+          "liveText",
+          "metaDescription",
+          "metaKeywords",
+          "metaPageUrl",
+          "metaTitle",
+          "privacyPolicy",
+          "termsAndConditions"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::homepage.homepage",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "aboutText",
+          "heroImage",
+          "imprint",
+          "liveText",
+          "metaDescription",
+          "metaKeywords",
+          "metaPageUrl",
+          "metaTitle",
+          "privacyPolicy",
+          "termsAndConditions"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "aboutText",
+          "heroImage",
+          "imprint",
+          "liveText",
+          "metaDescription",
+          "metaKeywords",
+          "metaPageUrl",
+          "metaTitle",
+          "privacyPolicy",
+          "termsAndConditions"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::photo.photo",
+      "properties": {
+        "fields": [
+          "photos"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::photo.photo",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::photo.photo",
+      "properties": {
+        "fields": [
+          "photos"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::photo.photo",
+      "properties": {
+        "fields": [
+          "photos"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::social-media.social-media",
+      "properties": {
+        "fields": [
+          "logo",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::social-media.social-media",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::social-media.social-media",
+      "properties": {
+        "fields": [
+          "logo",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::social-media.social-media",
+      "properties": {
+        "fields": [
+          "logo",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::spotify-link.spotify-link",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::spotify-link.spotify-link",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::spotify-link.spotify-link",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::spotify-link.spotify-link",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::youtube-video.youtube-video",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::youtube-video.youtube-video",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::youtube-video.youtube-video",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::youtube-video.youtube-video",
+      "properties": {
+        "fields": [
+          "embeddedLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
       "action": "plugin::upload.assets.copy-link",
       "subject": null,
       "properties": {},
