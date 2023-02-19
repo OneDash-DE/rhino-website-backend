@@ -57,6 +57,16 @@
     "liveText": {
       "type": "richtext",
       "required": true
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
