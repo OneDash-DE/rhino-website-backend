@@ -1,0 +1,28 @@
+{
+  "key": "core_admin_project-settings",
+  "value": {
+    "menuLogo": {
+      "name": "android-chrome-192x192.png",
+      "hash": "android_chrome_192x192_f23164e1a2",
+      "url": "/uploads/android_chrome_192x192_f23164e1a2.png",
+      "width": 192,
+      "height": 192,
+      "ext": ".png",
+      "size": 13.5,
+      "provider": "local"
+    },
+    "authLogo": {
+      "name": "android-chrome-192x192.png",
+      "hash": "android_chrome_192x192_73f89528b4",
+      "url": "/uploads/android_chrome_192x192_73f89528b4.png",
+      "width": 192,
+      "height": 192,
+      "ext": ".png",
+      "size": 13.5,
+      "provider": "local"
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

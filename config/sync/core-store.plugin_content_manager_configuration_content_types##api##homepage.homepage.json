@@ -1,0 +1,262 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::homepage.homepage",
+  "value": {
+    "uid": "api::homepage.homepage",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "aboutText": {
+        "edit": {
+          "label": "About ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutText",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "termsAndConditions": {
+        "edit": {
+          "label": "Terms and Conditions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "termsAndConditions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "privacyPolicy": {
+        "edit": {
+          "label": "Privacy Policy",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "privacyPolicy",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "imprint": {
+        "edit": {
+          "label": "imprint",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "imprint",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "heroImage": {
+        "edit": {
+          "label": "heroImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "heroImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "metaDescription": {
+        "edit": {
+          "label": "metaDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaDescription",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaKeywords": {
+        "edit": {
+          "label": "metaKeywords",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaKeywords",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaTitle": {
+        "edit": {
+          "label": "metaTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaPageUrl": {
+        "edit": {
+          "label": "metaPageUrl",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaPageUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "liveText": {
+        "edit": {
+          "label": "liveText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "liveText",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "heroImage"
+      ],
+      "edit": [
+        [
+          {
+            "name": "aboutText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "termsAndConditions",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "privacyPolicy",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "imprint",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "heroImage",
+            "size": 6
+          },
+          {
+            "name": "metaDescription",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "metaKeywords",
+            "size": 6
+          },
+          {
+            "name": "metaTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "metaPageUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "liveText",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
