@@ -9,7 +9,6 @@
       "properties": {
         "fields": [
           "date",
-          "description",
           "name"
         ]
       },
@@ -27,7 +26,6 @@
       "properties": {
         "fields": [
           "date",
-          "description",
           "name"
         ]
       },
@@ -39,7 +37,6 @@
       "properties": {
         "fields": [
           "date",
-          "description",
           "name"
         ]
       },

@@ -1773,10 +1773,6 @@
           "type": "date",
           "required": true
         },
-        "description": {
-          "type": "richtext",
-          "required": false
-        },
         "name": {
           "type": "string",
           "required": true
@@ -1832,10 +1828,6 @@
           "date": {
             "type": "date",
             "required": true
-          },
-          "description": {
-            "type": "richtext",
-            "required": false
           },
           "name": {
             "type": "string",
@@ -1911,17 +1903,18 @@
         },
         "liveText": {
           "type": "richtext",
-          "required": true
+          "required": false
         },
         "logoImage": {
+          "type": "media",
+          "multiple": false,
+          "required": false,
           "allowedTypes": [
             "images",
             "files",
             "videos",
             "audios"
-          ],
-          "type": "media",
-          "multiple": false
+          ]
         },
         "createdAt": {
           "type": "datetime"
@@ -2015,17 +2008,18 @@
           },
           "liveText": {
             "type": "richtext",
-            "required": true
+            "required": false
           },
           "logoImage": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
             "allowedTypes": [
               "images",
               "files",
               "videos",
               "audios"
-            ],
-            "type": "media",
-            "multiple": false
+            ]
           }
         },
         "kind": "singleType"

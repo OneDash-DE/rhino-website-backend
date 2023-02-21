@@ -35,20 +35,6 @@
           "sortable": true
         }
       },
-      "description": {
-        "edit": {
-          "label": "Beschreibung",
-          "description": "Kurze Beschreibung zum Event mit Ort.",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "description",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "name": {
         "edit": {
           "label": "Name",
@@ -93,6 +79,11 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "date",
+        "name"
+      ],
       "edit": [
         [
           {
@@ -103,18 +94,7 @@
             "name": "name",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "description",
-            "size": 12
-          }
         ]
-      ],
-      "list": [
-        "id",
-        "date",
-        "name"
       ]
     }
   },

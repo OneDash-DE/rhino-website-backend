@@ -56,17 +56,18 @@
     },
     "liveText": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "logoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
