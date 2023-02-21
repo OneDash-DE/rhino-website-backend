@@ -59,7 +59,8 @@
           "metaKeywords",
           "metaTitle",
           "metaPageUrl",
-          "liveText"
+          "liveText",
+          "logoImage"
         ]
       },
       "conditions": []
@@ -84,7 +85,8 @@
           "metaKeywords",
           "metaTitle",
           "metaPageUrl",
-          "liveText"
+          "liveText",
+          "logoImage"
         ]
       },
       "conditions": []
@@ -103,7 +105,8 @@
           "metaKeywords",
           "metaTitle",
           "metaPageUrl",
-          "liveText"
+          "liveText",
+          "logoImage"
         ]
       },
       "conditions": []

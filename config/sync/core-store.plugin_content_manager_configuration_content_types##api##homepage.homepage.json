@@ -160,6 +160,20 @@
           "sortable": false
         }
       },
+      "logoImage": {
+        "edit": {
+          "label": "Logo Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logoImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -194,6 +208,12 @@
         [
           {
             "name": "heroImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "logoImage",
             "size": 12
           }
         ],
