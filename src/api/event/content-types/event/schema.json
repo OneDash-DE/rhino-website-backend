@@ -19,6 +19,11 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "canceled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

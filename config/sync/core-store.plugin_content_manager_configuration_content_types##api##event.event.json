@@ -26,8 +26,7 @@
           "description": "Datum des Auftritts",
           "placeholder": "",
           "visible": true,
-          "editable": true,
-          "step": 15
+          "editable": true
         },
         "list": {
           "label": "date",
