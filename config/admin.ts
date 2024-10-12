@@ -11,4 +11,5 @@ export default ({ env }) => ({
     },
   },
   watchIgnoreFiles: ["**/config/sync/**"],
+  url: env("URL", "http://localhost:1337") + "/admin",
 });
